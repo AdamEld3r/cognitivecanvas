@@ -1,7 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Travel platform</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/pixi.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/pubsub.min.js"></script>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="backgroundVideo">
+        <video autoplay loop muted plays-inline class="backVideo">
+          <source src="videos/IndexAnimation.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+	<!-- begin header -->
+	<header class="header">
+		<div class="header__wrapper">
+			<div class="header__logo logo">Cognitive Canvas</div>
+			<div class="header__right">
+				<button class="header__search"></button>
+			</div>
+		</div>
+	</header>
+	<!-- end header -->
+
+	<!-- begin sections -->
+	<div class="sections">
+		<section class="section is-active">
+			<div class="section__title-list">
+				<h2 class="section__title" data-title="1"><span class="section__number">01</span><a href="IDHome.html">Inner Dialogue</a></h2>
+				<h2 class="section__title" data-title="2"><span class="section__number">02</span><a href="STWHome.html">Seeing The World</a></h2>
+			</div>
+		</section>
+	</div>
+	<!-- end sections -->
+
+	<!-- begin footer -->
+	<footer class="footer">
+		<div class="footer__wrapper">
+			<div class="footer__left">
+				<div class="footer__social">
+					<ul class="social__list">
+						<li class="social__item">
+							<a href="" class="social__link">VSCO</a>
+						</li>
+						<li class="social__item">
+							<a href="" class="social__link">Instagram</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__right">
+				<div class="footer__logo logo">by Adam Elder</div>
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+	<div id="canvas"></div>
+
+	<script src="js/main.js"></script>
 </body>
 </html>
