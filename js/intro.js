@@ -29,7 +29,7 @@ function showVideo() {
 
 
 function introFinished(e) {
-    window.location.href = "index.html";
+    window.location.href = "home.html";
 }
 
 document.getElementById('introVideo').addEventListener('ended', introFinished, false);
