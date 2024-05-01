@@ -3,7 +3,7 @@
 /* Toggle Button to Unmute the Video */
 
 function toggleMute() {
-    var video = document.getElementById('NarIDAudio');
+    var video = document.getElementById('NarID');
     if (video.muted) {
         video.muted = false;
     } else {
@@ -20,7 +20,7 @@ function delay(time) {
 /* Show Video Function to Add Display Property to Show the Video on Click of Button which will fulfilled User Interaction Needs to Browser to Run the Video with Unmute State */
 
 function showVideo() {
-    var element = document.getElementById('NarIDAudio');
+    var element = document.getElementById('NarID');
     var button = document.getElementById('button');
     element.style.display = 'block';
     button.style.display = 'none';
@@ -29,10 +29,10 @@ function showVideo() {
 
 
 function introFinished(e) {
-    window.location.href = "CraigRATvoice.html";
+    window.location.href = "STWHome.html";
 }
 
-document.getElementById('NarIDAudio').addEventListener('ended', introFinished, false);
+document.getElementById('NarID').addEventListener('ended', introFinished, false);
 
 
 

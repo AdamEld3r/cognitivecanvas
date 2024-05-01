@@ -29,7 +29,7 @@ function showVideo() {
 
 
 function introFinished(e) {
-    window.location.href = "IDHome.html";
+    window.location.href = "IDHomeRT.html";
 }
 
 document.getElementById('IDCraigSITvideo').addEventListener('ended', introFinished, false);

@@ -29,7 +29,7 @@ function showVideo() {
 
 
 function introFinished(e) {
-    window.location.href = "STWHome.html";
+    window.location.href = "STWHomeRT.html";
 }
 
 document.getElementById('CiaranSTWvideo').addEventListener('ended', introFinished, false);
