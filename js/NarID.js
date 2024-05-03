@@ -29,7 +29,7 @@ function showVideo() {
 
 
 function introFinished(e) {
-    window.location.href = "STWHome.html";
+    window.location.href = "IDHome.html";
 }
 
 document.getElementById('NarID').addEventListener('ended', introFinished, false);
