@@ -18,13 +18,13 @@ footer {
 .back {
   float: left;
   padding-left: 1rem;
-  width: 4%;
+  width: 5%;
 }
 
 .forward {
   float: right;
   padding-right: 1rem;
-  width: 4%;
+  width: 5%;
 }
 
 video {
