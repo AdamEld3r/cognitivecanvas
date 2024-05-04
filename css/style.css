@@ -107,11 +107,6 @@ canvas {
 .section__number {
 	position: absolute;
 	left: -1rem;
-	/*top: 50%;
-	transform: translate(0, -50%);
-	height: 58px;
-	width: 100px;
-	background: url('../images/sprite.png') no-repeat top left; */
 }
 .is-active {
 	display: flex;

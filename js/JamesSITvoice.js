@@ -1,4 +1,3 @@
-// Autoplay video unmuted - Solution from https://stackoverflow.com/questions/70719678/html5-video-autoplay-with-sound-unmuted
 
 /* Toggle Button to Unmute the Video */
 
