@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
  </head>
  
- <body>
+ <body onload="showVideo()">
      
      <!--Intro Video-->
      <video id="NarSTW" autoplay muted plays-inline class="backVideo">
@@ -15,7 +15,7 @@
      </video>
      
     
-     <button class="button-49" type="button" onclick="showVideo()" id="button">Activate</button>
+     <button class="hidden" type="button" onclick="showVideo()" id="button"></button> 
    
      <footer>
       <a href="home.html"><img class="back" src="images/backward.png"></a>

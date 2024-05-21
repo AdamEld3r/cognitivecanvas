@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
  </head>
  
- <body>
+ <body onload="showVideo()">
      <!--Craig Voice Audio-->
      <video id="CiaranSTWvoice" autoplay muted plays-inline class="backVideo">
         <source src="audio/STW/Visual/CiaranSTW.mp4" type="video/mp4">
@@ -15,7 +15,7 @@
      
      <a href="STWHomeRT.html"><img class="home" src="images/homeBrain.png"></a>
     
-      <button class="button-49" type="button" onclick="showVideo()" id="button">Ciaran Audio</button>
+     <button class="hidden" type="button" onclick="showVideo()" id="button"></button>
    
       <footer>
         <a href="STWHomeRT.html"><img class="back" src="images/backward.png"></a>

@@ -20,6 +20,11 @@ Array.prototype.forEach.call(sectionsNode, function (section) {
   })
 });
 
+function animIntro() {
+    setTimeout(animLoader, 1000);
+    setTimeout(animSections, 2000);
+}
+
 function animLoader() {
   const tl = new TimelineMax();
 
